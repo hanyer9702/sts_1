@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한예린</title>
+</head>
+
+<body>
+	 <form action="./formResult.html" method="get" id="form" name="form">
+	 	<input type="text" id="nickname" name="nickname">
+	 	<input type="button" id="button" name="button" value="제출" onclick="here();">
+	 </form>
+
+	<script type="text/javascript">
+		function here(){
+			alert("nickname: "+document.getElementById("nickname").value);
+			
+			//nickname이 없으면
+			//id가 6~20사이이고 특수문자 사용하였고 기타
+			//password 규칙에 맞는지?
+			document.getElementById("form").submit();
+		}
+	</script>
+</body>
+</html>
