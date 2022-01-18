@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한예린</title>
+<style type="text/css">
+	/* 하위선택자 */
+		div ul li{
+			border: solid 1px black;
+		}
+	
+	/* 자식선택자 */
+		div > ul {
+			border: solid 1px red;
+		}
+	
+	/* 인접 형제 선택자 */
+		h3 + p {
+			color: red;
+		}
+	
+	/* 형제 선택자 */
+		h3 ~ p {
+			color: red;
+		}
+</style>
+</head>
+<body>
+	 <div>
+	 	<h3>취미</h3>
+	 	<p>나의 취미는</p>
+	 	<p>아이스베어 그리즐리 판다 너무너무 귀여워</p>
+		<ul>
+			<li>아이스베어
+				<ul>
+					<li>아이스
+					<li>베어
+				</ul>
+			<li>판다
+				<ul>
+					<li>귀여워
+					<li>너는
+					<li>정말
+					<li>짱으로
+				</ul>
+		</ul>	 	
+	 </div>
+</body>
+</html>
